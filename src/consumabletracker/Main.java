@@ -82,7 +82,7 @@ public class Main {
                 String personal_rating = sc.nextLine();
                 double rating = 0.0;
                 if (personal_rating.length() != 0) {
-                    rating = Integer.parseInt(personal_rating);;
+                    rating = Double.parseDouble(personal_rating);;
                 }
 
                 System.out.println("Total days of consumption (optional).");
@@ -123,7 +123,7 @@ public class Main {
                 String personal_rating = sc.nextLine();
                 double rating = 0.0;
                 if (personal_rating.length() != 0) {
-                    rating = Integer.parseInt(personal_rating);;
+                    rating = Double.parseDouble(personal_rating);;
                 }
 
                 System.out.println("Consumption ending date in the format YYYY-MM-DD (optional).");

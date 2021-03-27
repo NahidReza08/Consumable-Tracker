@@ -220,6 +220,7 @@ public class Commands {
                     System.out.println("Total consumption time in hours: " + book.getConsumtionHour());
                     System.out.println("Total consumption time in days: " + book.getConsumtionDays());
                     System.out.println("Personal rating: " + book.getRating());
+                    flag = true;
                     break;
                 }
 
@@ -240,6 +241,7 @@ public class Commands {
                     System.out.println("Total consumption time in hours: " + movie.getConsumtionHour());
                     System.out.println("Total consumption time in days: " + movie.getConsumtionDays());
                     System.out.println("Personal rating: " + movie.getRating());
+                    flag = true;
                     break;
                 }
 
@@ -260,6 +262,7 @@ public class Commands {
                     System.out.println("Total consumption time in hours: " + serieS.getConsumtionHour());
                     System.out.println("Total consumption time in days: " + serieS.getConsumtionDays());
                     System.out.println("Personal rating: " + serieS.getRating());
+                    flag = true;
                     break;
                 }
 
